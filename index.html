@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/d510cff738.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Movies</title>
+    <link rel="icon" href="https://assets.website-files.com/59f5ab35fccfea0001f70443/5a0995c47dd52a00016956d3_Favicon.png" type="image/gif" sizes="16x16" />
+</head>
+
+<body>
+    <header class="header-wrapper">
+        <div class="navigation-wrapper">
+            <a href="\" class="logo">
+                <img src="https://assets.website-files.com/59f5ab35fccfea0001f70443/5a097871e1339f0001a7d26d_Logo-3.svg" alt="logo" class="logo-img" />
+            </a>
+
+            <nav class="navigation">
+                <ul class="nav-ul" id="nav-bar-links">
+                    <li>
+                        <a class="active" href="\" class="nav-menu-home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about.html" id="about-us" class="nav-menu-about-us">About us</a
+              >
+            </li>
+            <li>
+              <a href="/login.html" class="nav-menu-login">LogIn</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="toggle-button" class="burger-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="section1" id="section-main">
+        <div class="container-wrapper">
+            <div class="title-wrapper">
+                <h1 class="title">Highlights today</h1>
+                <div class="subtitle">Be sure not to miss these reviews today.</div>
+            </div>
+
+            <div class="tabs-container">
+                <a id="upcoming-btn" class="tab-buttons" href="#">
+                    <div>Last Added</div>
+                </a>
+                <a id="top-rated-btn" class="tab-buttons" href="#">
+                    <div>Top Rated</div>
+                </a>
+            </div>
+
+            <div class="movies-api-container">
+                <ul id="list"></ul>
+            </div>
+
+            <div class="load-more-wrapper">
+                <a id="load-more-btn">
+                    <div class="load-more">Load More</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div class="search-container">
+                <p class="search-title">
+                    Looking for something else? Search our reviews:
+                </p>
+                <div class="search-w-c">
+                    <div class="search-wrapper">
+                        <input id="input-search" type="text" class="search-input" maxlength="50" placeholder="Try  'The Lord of the Rings' " />
+                        <div id="search-btn"><i class="fas fa-search"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <div class="footer-row">
+                    <ul class="footer-column">
+                        <li>
+                            <p class="footer-title">Information</p>
+                        </li>
+                        <li>
+                            <a href="# " class="footer-link">Image Licenses</a>
+                        </li>
+                        <li>
+                            <a href="# " class="footer-link">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="# " class="footer-link">Our Authors</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-column">
+                        <li>
+                            <p class="footer-title">Discover</p>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">All Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Author Picks</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">New Reviews</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-column">
+                        <li>
+                            <p class="footer-title">Community</p>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link social-wrapper">
+                                <i class="fab fa-facebook-square"></i>
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link social-wrapper">
+                                <i class="fab fa-twitter"></i>
+                                <p>Twitter</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link social-wrapper">
+                                <i class="fab fa-instagram"></i>
+                                <p>Instagram</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
